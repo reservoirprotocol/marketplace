@@ -1246,21 +1246,20 @@
   integrity sha512-zQzgUqW4RQDb0ItAL1xNW4K4olUrkfV3jeEPs9rG+nsDQurO+W9TT+YZ9H1mmgAJqlthyv1sBRZGdBm4YjtD6Q==
   dependencies:
     "@babel/runtime" "^7.13.10"
-    "@radix-ui/primitive" "0.1.1-rc.6"
-    "@radix-ui/react-compose-refs" "0.1.1-rc.46"
-    "@radix-ui/react-context" "0.1.2-rc.46"
-    "@radix-ui/react-dismissable-layer" "0.1.6-rc.46"
-    "@radix-ui/react-focus-guards" "0.1.1-rc.46"
-    "@radix-ui/react-focus-scope" "0.1.5-rc.46"
-    "@radix-ui/react-id" "0.1.6-rc.46"
-    "@radix-ui/react-popper" "0.1.5-rc.46"
-    "@radix-ui/react-portal" "0.1.5-rc.46"
-    "@radix-ui/react-presence" "0.1.3-rc.46"
-    "@radix-ui/react-primitive" "0.1.5-rc.46"
-    "@radix-ui/react-slot" "0.1.3-rc.46"
-    "@radix-ui/react-use-controllable-state" "0.1.1-rc.46"
+    "@radix-ui/primitive" "0.1.0"
+    "@radix-ui/react-compose-refs" "0.1.0"
+    "@radix-ui/react-context" "0.1.1"
+    "@radix-ui/react-dismissable-layer" "0.1.5"
+    "@radix-ui/react-focus-guards" "0.1.0"
+    "@radix-ui/react-focus-scope" "0.1.4"
+    "@radix-ui/react-id" "0.1.5"
+    "@radix-ui/react-popper" "0.1.4"
+    "@radix-ui/react-portal" "0.1.4"
+    "@radix-ui/react-presence" "0.1.2"
+    "@radix-ui/react-primitive" "0.1.4"
+    "@radix-ui/react-use-controllable-state" "0.1.0"
     aria-hidden "^1.1.1"
-    react-remove-scroll "2.5.4"
+    react-remove-scroll "^2.4.0"
 
 "@radix-ui/react-popper@0.1.4":
   version "0.1.4"
@@ -1714,17 +1713,17 @@
   dependencies:
     "@react-hookz/deep-equal" "^1.0.2"
 
-"@reservoir0x/reservoir-kit-client@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@reservoir0x/reservoir-kit-client/-/reservoir-kit-client-0.0.2.tgz#3a08c16a08acb0974ba4b5053eb3348cc9e2be3f"
-  integrity sha512-hc5FvTtmJNJ0Md6ZxV7/skWsoXCseborZcNtYAs8QpzxQIs6v3VojKw3hB4/Rvo/znqXqY/nmux0KHWGQg7eLw==
+"@reservoir0x/reservoir-kit-client@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@reservoir0x/reservoir-kit-client/-/reservoir-kit-client-0.0.4.tgz#ea19dd07ce0432988ee0387af73909ce0ffcbecd"
+  integrity sha512-pjqxXnnreB1NA8WVLVic+mXWXJRLTABhNZClSfkHyouLFWDkEQ59gxWenixkYBOvZgJSZCN9UmsvHjSY0iukMw==
   dependencies:
     axios "^0.27.2"
 
-"@reservoir0x/reservoir-kit-ui@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@reservoir0x/reservoir-kit-ui/-/reservoir-kit-ui-0.0.8.tgz#b7f2fa01f70a3c7fb331061f7a760dc2917541ae"
-  integrity sha512-B7UMLdWa2Oo4Tthux97y+Hj8TFtVRzbMjaBaOSILLS/K3FA6kk2p9yKIydTcwtqovrFv5KdTiJFMRLtZd6QLmQ==
+"@reservoir0x/reservoir-kit-ui@^0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@reservoir0x/reservoir-kit-ui/-/reservoir-kit-ui-0.0.10.tgz#b523d7db08be2cbf3ea09f35b74d8a8657b88f16"
+  integrity sha512-zB9tH//Rpg8yIrT6dkM/wYHjk1cdweubje3K4oXyeDjB/yhEDax9RwdpSaO5qRuJh2ILthnGAoTqHPMnO6IBzA==
   dependencies:
     "@fortawesome/fontawesome-svg-core" "^6.1.1"
     "@fortawesome/free-solid-svg-icons" "^6.1.1"
@@ -1733,7 +1732,7 @@
     "@radix-ui/react-dialog" "0.1.8-rc.50"
     "@radix-ui/react-popover" "0.1.7-rc.46"
     "@rainbow-me/rainbowkit" "^0.4.1"
-    "@reservoir0x/reservoir-kit-client" "0.0.2"
+    "@reservoir0x/reservoir-kit-client" "0.0.4"
     "@stitches/react" "^1.2.8"
     framer-motion "^6.4.2"
 
@@ -1958,10 +1957,10 @@
   resolved "https://registry.yarnpkg.com/@vanilla-extract/sprinkles/-/sprinkles-1.4.1.tgz#8c8703ddedaac355c1187db909119816c0fc771c"
   integrity sha512-aW6CfMMToX4a+baLuVxwcT0FSACjX3xrNt8wdi/3LLRlLAfhyue8OK7kJxhcYNZfydBeWTP59aRy8p5FUTIeew==
 
-"@wagmi/core@^0.4.7":
-  version "0.4.8"
-  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.4.8.tgz#996c9040310e3126cb75f08b7240229f484a52f0"
-  integrity sha512-QhBujyV1Rf5oTsekTFlx/LmJnQ4+AO7FLwGX6H+PnyvkEQPe1oKv6VtbyghTQZMwFakjDSKf9QTKdtgZbhx/1w==
+"@wagmi/core@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@wagmi/core/-/core-0.5.0.tgz#6a1420a192f4a05fe0efa3ca3ef8976331ae234e"
+  integrity sha512-bh4cI7WaBDtEM8E7KPCLnK5PfmBPg5iIUydTw5DTX2yo6BiRhcFIflRn/Bg9IJCFq3SGhW6Zmpu+jHHeH9ZELQ==
   dependencies:
     eventemitter3 "^4.0.7"
     zustand "^4.0.0-rc.1"
@@ -5302,7 +5301,7 @@ react-masonry-css@^1.0.16:
   resolved "https://registry.npmjs.org/react-masonry-css/-/react-masonry-css-1.0.16.tgz"
   integrity sha512-KSW0hR2VQmltt/qAa3eXOctQDyOu7+ZBevtKgpNDSzT7k5LA/0XntNa9z9HKCdz3QlxmJHglTZ18e4sX4V8zZQ==
 
-react-query@^4.0.0-beta.23:
+react-query@4.0.0-beta.23:
   version "4.0.0-beta.23"
   resolved "https://registry.yarnpkg.com/react-query/-/react-query-4.0.0-beta.23.tgz#76713547670ef1f991ae828b3d51df63ec6e035c"
   integrity sha512-e6mNBVAYGy0M1OwX0mhRB/lCkOedKeqTUrbPjNCqvm8hQGUsJJobqfHVvTv8o6JJaOO2MFcxKF4vZM+PEKbHZA==
@@ -6091,6 +6090,11 @@ use-sync-external-store@1.1.0, use-sync-external-store@^1.1.0:
   resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.1.0.tgz#3343c3fe7f7e404db70f8c687adf5c1652d34e82"
   integrity sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==
 
+use-sync-external-store@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
+  integrity sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==
+
 utf8@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/utf8/-/utf8-3.0.0.tgz#f052eed1364d696e769ef058b183df88c87f69d1"
@@ -6146,16 +6150,16 @@ vfile@^5.0.0:
     unist-util-stringify-position "^3.0.0"
     vfile-message "^3.0.0"
 
-wagmi@^0.5.9:
-  version "0.5.9"
-  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.5.9.tgz#7e1c3eaa4b5cc5680072c66b59622c2cb5a7bfff"
-  integrity sha512-B9wL+1J3J/9sVqj3DMJtTYuBSx0QdFFu6QwPlw2zVvB995lWivG2vABTYwoWuyUbXwcVvSVHEgPyFBRx5zoPqw==
+wagmi@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/wagmi/-/wagmi-0.6.0.tgz#1356402e0717ec6b3a5bc268e64bc9a63ef4dafb"
+  integrity sha512-Jyj22eQNoNcs9DoLDhD+foF5skEc7XPAZjqZ7GK+rVzxWVlA6Vx+qrcAALNGnxayE6H+CYVKWGtTK8PPN/WHOw==
   dependencies:
     "@coinbase/wallet-sdk" "^3.3.0"
-    "@wagmi/core" "^0.4.7"
+    "@wagmi/core" "^0.5.0"
     "@walletconnect/ethereum-provider" "^1.7.8"
-    react-query "^4.0.0-beta.23"
-    use-sync-external-store "^1.1.0"
+    react-query "4.0.0-beta.23"
+    use-sync-external-store "^1.2.0"
 
 web3-utils@^1.3.4:
   version "1.7.4"
